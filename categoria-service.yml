@@ -7,3 +7,9 @@ spring:
     show-sql: true
 mensaje:
   texto: Configuración obtenida desde Config Server para Categoría Service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
